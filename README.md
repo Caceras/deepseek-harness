@@ -1,3 +1,28 @@
+<!-- repo-card:start -->
+<p align="center"><img src=".github/repo-card/cover.jpg" alt="DeepSeek Harness: plugin-based AI coding agent with web, desktop and CLI apps" width="100%"></p>
+
+<h2><img src=".github/repo-card/logo.png" width="34" height="34" align="absmiddle" alt=""> DeepSeek Harness</h2>
+
+**An unchanged copy of DeepSeek Harness, an open-source AI coding agent from DeepSeek AI. You give it a task and it reads files, runs commands and calls tools, from a command line, a web page or a desktop app.**
+
+**Why it is here:** copied in October 2026 to try the harness and study how it is built (inferred: no own changes were made on top).
+
+| | |
+|---|---|
+| **Status** | Untouched copy of [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness), copied 4 Oct 2026 |
+| **Code quality** | ★☆☆☆☆ 1/5 as own work: no own code on top. The upstream code itself is mature, with CI and thousands of tests |
+| **Size** | No own code. Upstream is a very large TypeScript monorepo |
+| **Stack** | pnpm TypeScript monorepo, Cordis plugin framework, React web UI, Electron desktop app |
+| **What works** | Everything upstream ships: agent loop with sub-agents, MCP tools, saved sessions, context compaction, sandboxed shell, browser use, skills |
+| **Worth reusing** | Better to install the upstream package (`npx @deepseek-ai/dsh web`) than to keep this copy |
+| **Renamed** | Was `Harness` until 25 Nov 2026 |
+
+<p align="center"><img src=".github/repo-card/screenshot.jpg" width="90%" alt="DeepSeek Harness settings screen"></p>
+<p align="center"><sub>Image from this repo: docs/user/guide/providers-models-page.png</sub></p>
+<!-- repo-card:end -->
+
+---
+
 # DeepSeek Harness
 
 English | [中文](README.zh.md)
